@@ -1,0 +1,156 @@
+form .avatar{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius:50%;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+
+}
+
+.pub_image{
+    margin-bottom: 25px;
+}
+.pub_image .container-avatar{
+    margin-right: 15px;
+    float: left;
+}
+
+.pub_image .data-user{
+
+    font-weight: bold;
+    line-height: 37px;
+    
+}
+
+.pub_image .data-user a{
+
+    color: #444;
+    
+}
+
+.pub_image .nickname {
+    color:grey;
+}
+
+.image-container{
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-detail{
+    max-height: 500px;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.pub_image .card-body {
+    padding: 0;
+}
+
+.pub_image .description{
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 40px;
+}
+
+.pub_image .btn-comments{
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.pub_image_detail .comments{
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.likes{
+    float: right;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.likes img{
+    width: 30px;
+}
+
+.number-likes {
+    color: gray;
+    font-size: 14px;
+}
+.profile-user{
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.profile-user .container-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float: left;
+}
+
+.profile-user .container-avatar img{
+    height: 100%;
+    width: 100%;
+}
+
+.profile-user .user-info{
+    float:left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.post-menu{
+    float: right !important;
+    width: 37px !important;
+    height: 37px !important;
+    border : 1px solid transparent;
+    border-radius: 4px;
+    text-align: center !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.ellipsis{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #d4d4d4 !important;
+    text-decoration: none !important;
+    font-size: 35px;
+    
+}
+
+.post-menu:hover{
+    border: 1px solid #eceef0;
+    border-radius: 4px;
+    background-color: #eceef0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #dcdcdc45;
+}
+
+.btn-search{
+    margin-left: 0;
+    padding-left: 0;
+}
